@@ -15,13 +15,13 @@ module.exports = {
   SupportServer: "https://discord.gg/bdPF3kp4EC", 
   // Support Server Link
   
-  Token: process.env.Token || "OTcxOTY3ODg1Mzk4NDA5MzI3.Gyqcca.ymRVUbwUcGYvP8nYcsxraBp1EzVKvF46KpyXic", 
+  Token: process.env.Token || "YOUR TOKEN BOT", 
   // Discord Bot Token
   
-  ClientID: process.env.Discord_ClientID || "971967885398409327", 
+  ClientID: process.env.Discord_ClientID || "YOUR CLIENTID", 
   // Discord Client ID
   
-  ClientSecret: process.env.Discord_ClientSecret || "5BSqnle2Z8WUKd4IRNV2D1SlUMejBluG", 
+  ClientSecret: process.env.Discord_ClientSecret || "YOUR CLIENT SECRET", 
   // Discord Client Secret
   
   Scopes: ["identify", "guilds", "applications.commands"], 
