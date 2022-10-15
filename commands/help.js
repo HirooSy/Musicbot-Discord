@@ -100,7 +100,7 @@ ${"• " + Commands.join("\n")}
     run: async (client, interaction, args, { GuildDB }) => {
       let Commands = client.commands.map(
         (cmd) =>
-`> ${cmd.emoticon ? cmd.emoticon : ""} **<${GuildDB ? GuildDB.prefix : client.botconfig.DefaultPrefix} ${cmd.name}:0>** {cmd.usage ? "\`" + cmd.usage + "\`" : ""}\`
+`> ${cmd.emoticon ? cmd.emoticon : ""} **<${GuildDB ? GuildDB.prefix : client.botconfig.DefaultPrefix}${cmd.name}:0>** ${cmd.usage ? "\`" + cmd.usage + "\`" : ""}\`
             • \`ᴅᴇsᴄʀɪᴘᴛɪᴏɴ:\` ${cmd.description}`
       );
 
